@@ -6,18 +6,11 @@
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     color: #000000;
+    font-weight: 400;
 }
 
 body {
     background-color: #1B1A1A;
-}
-
-section {
-    padding: 0 calc(6.8vw - 9.4px) 0;
-}
-
-.firstSection {
-    padding: 0;
 }
 
 header {
@@ -91,6 +84,140 @@ h1 {
     border-radius: calc(0.9vw + 16.5px);
     font-weight: 600;
     cursor: pointer;
+    margin-bottom: calc(4.7vw + 112.4px);
+}
+
+
+
+.secondSection {
+    background: linear-gradient(to top, #7AEFFF, #7AFFBF);
+    width: calc(86.5vw + 18.7px);
+    border-radius: calc(2.3vw + 15.5px);
+    margin-right: calc(6.8vw - 9.4px);
+    margin-left: calc(6.8vw - 9.4px);
+    margin-bottom: calc(1.5vw + 10.4px);
+    padding: calc(2.7vw + 37.8px) 0 0;
+    position: relative;
+}
+
+.titleSecondSection {
+    font-size: calc(3.8vw + 26px);
+    text-align: center;
+    width: calc(62.3vw + 61.5px);
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.textSecondSection {
+    font-size: calc(0.8vw + 13.2px);
+    text-align: center;
+    width: calc(56.8vw + 82px);
+    margin: 0 auto;
+    margin-bottom: calc(2.8vw + 47.4px);
+}
+
+.displayPK {
+    display: flex;
+    justify-content: center;
+    width: calc(57.7vw + 78.5px);
+    margin: 0 auto;
+}
+
+.displayPKPhoto {
+    width: calc(57.7vw + 78.5px);
+}
+
+.phone {
+    width: calc(29.7vw - 27.3px);
+    position: absolute;
+    right: calc(0.8vw - 2.8px);
+    bottom: calc(0.1vw - 0.5px);
+}
+
+.thirdSection {
+    margin-right: calc(6.8vw - 9.4px);
+    margin-left: calc(6.8vw - 9.4px);
+    margin-bottom: calc(1.5vw + 10.4px);
+}
+
+.containerThirdSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 31px;
+}
+
+.cardsThirdSectionFirst {
+    background-color: #FF8DB6;
+    padding: 48px 48px 0;
+    border-radius: 48px;
+    width: 608px;
+    height: 696px;
+}
+
+.cardsThirdSectionFirst h2 {
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+
+.cardsThirdSectionFirst p {
+    font-size: 24px;
+    margin-bottom: 6px;
+    width: 385px;
+}
+
+.books {
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+    width: 545px;
+}
+
+.booksPhoto {
+    width: 545px;
+}
+
+.cardsThirdSectionSecond {
+    position: relative;
+    background-color: #8BE2EE;
+    padding: 79px 48px 48px;
+    border-radius: 48px;
+    width: 623px;
+    height: 696px;
+}
+
+.message {
+    position: absolute;
+    top: -30px;
+    left: 60px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.cardsThirdSectionSecond:hover .message {
+    opacity: 1;
+}
+
+.man {
+    display: flex;
+    justify-content: center;
+    width: 456px;
+    margin: 0 auto;
+    margin-bottom: 47px;
+}
+
+.manPhoto {
+    width: 456px;
+}
+
+.cardsThirdSectionSecond h2 {
+    font-size: 56px;
+    width: 437px;
+    margin-bottom: 24px;
+}
+
+.cardsThirdSectionSecond p {
+    font-size: 24px;
+    width: 445px;
 }
 
 @media (max-width: 700px) {
